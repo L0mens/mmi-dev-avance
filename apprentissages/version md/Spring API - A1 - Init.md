@@ -126,10 +126,6 @@ Pour envoyer un objet, notamment dans le but de l’ajouter au serveur, il faut 
 Créez dans le contrôleur une réponse à la requête POST `/IAm` qui fournit une personne au contrôleur et qui renvoie une simple chaîne « you are \<name\> and you’re \<age\> years old ». Cette fois le paramètre sera transmis par le **corps** de la requête (body) ce qui oblige à préfixer le paramètre par @RequestBody dans l’opération.
 
 Testez avec Thunder Client et un corps correspondant au format vu plus haut.
-
-<!-- Saut de page-->
-<div style="page-break-after: always;"></div>
-
 ## 07 . Requête renvoyant une image des ressources
 
 Il est assez simple d’envoyer une **image** (ou tout autre fichier) si celle-ci est présente dans les **ressources**.
@@ -147,7 +143,7 @@ Pour charger un fichier des ressources dans un tableau d’octets, utilisez le c
 
 ```java
 InputStream stream = getClass().getResourceAsStream("/images/test.jpg");
-Byte[] bytes = stream.readAllBytes();  
+byte[] bytes = stream.readAllBytes();  
 ```
 
 
@@ -158,6 +154,9 @@ Testez avec un navigateur ou Thunder Client !
 Nous souhaitons réaliser une requête pour lister les fichiers contenus dans un dossier particulier du serveur (par exemple le dossier Images).
 
 Créez une requête GET qui renvoie un tableau de chaînes de caractères contenant les noms de tous les fichiers d’un dossier particulier (choisir un dossier local, avec un chemin absolu dans le code, contenant quelques fichiers images).
+
+<!-- Saut de page-->
+<div style="page-break-after: always;"></div>
 
 Pour lister les fichiers d’un dossier, vous pouvez utiliser le code suivant :
 
