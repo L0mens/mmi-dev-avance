@@ -1,16 +1,15 @@
-# MMI - Dev Avancé - 2024
+# MMI - Dev Avancé - 2025
 
 Objectif : Réaliser une application Front + Back de pokédex. 
 
-Techno backend : MongoDB + Java Spring Boot
+Techno backend : MongoDB + NodeJS Express.js
 
 Techno frontend : Choix libre entre Appli native Android ou Site web responsive (React par exemple)
 
 Planning
 
-- Semaine 1 (04 Mars 2024) : 22h (Cours 8h + Réalisation Back 12h)
-- Semaine 2 (25 Mars 2024) : 8h (Cours)
-- Semaine 3 (??) : 10h (Réalisation Front)
+- Semaine 1 (10 Février 2025) : 20h (Cours + Réalisation Back)
+- Semaine 2 (27 Février 2025) : Réalisation Front avec simulation client
 
 
 Pitch de l'application : 
