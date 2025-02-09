@@ -13,7 +13,11 @@ Dans un soucis de simplicité, les images des Pokémons pourront être prise du 
 
 ## 02 . Création du projet
 
-Créez sur votre ordinateur un dossier.
+Commencer par créer un repository sur votre compte github (ajoutez un readme). Puis, clonez votre repo sur votre machine. Cela sera votre dossier de travail. Veuillez à régulièrement faire des commits et push.
+
+```text
+Vous n'avez pas de compte github ? C'est le moment de vous lancer. Si vous voulez devenir dev, c'est un incontournable. Psss, vous êtes plutôt sur gitlab ? Pas de soucis, cela fonctionne pareil (ou presque) ! 
+```
 
 Créez dans ce dossier un nouveau projet d’API via la commande suivante  :
 
@@ -24,7 +28,6 @@ npm init
 <!-- Saut de page-->
 <div style="page-break-after: always;"></div>
 --
-
 ## 03 . Architecture du projet
 
 Dans un dossier `📂src` vous aller créer les dossier qui serviront à définir l'architecture de notre projet : 
